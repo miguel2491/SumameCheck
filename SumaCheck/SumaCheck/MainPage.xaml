@@ -2,11 +2,47 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SumaCheck"
+             xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+             xmlns:zxcore="clr-namespace:ZXing.Mobile;assembly=ZXing.Net.Mobile.Core"
              x:Class="SumaCheck.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label x:Name="txt_noticia"></Label>
-    </StackLayout>
+    <ScrollView>
+        <StackLayout>
+            <!-- Place new controls here -->
+            <StackLayout Margin="10,10,10,10">
+                <Image Source="SumaCheck_.png" 
+                Aspect="AspectFill"
+                HeightRequest="150"
+                WidthRequest="150"
+                HorizontalOptions="Center" />
+            </StackLayout>
+            <StackLayout x:Name="d_reloj" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,20,20,20">
+                <Label x:Name="lblTime" FontSize="Large" Scale="3" Text=""></Label>
+            </StackLayout>
+            <StackLayout Margin="20,20,20,20" HorizontalOptions="Center">
+                <Label x:Name="txt_noticia"></Label>
+            </StackLayout>
+            <StackLayout Margin="30,30,30,30">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
 
+                    <BoxView Grid.Row="0" BackgroundColor="Chocolate"/>
+                    <zxing:ZXingScannerView Grid.Row="1" x:Name="_scanView" OnScanResult="Handle_OnScanResult" IsScanning="False" WidthRequest="200" HeightRequest="500">
+
+                        <zxing:ZXingScannerView.Options>
+
+                            <zxcore:MobileBarcodeScanningOptions UseFrontCameraIfAvailable="true" />
+                            
+                        </zxing:ZXingScannerView.Options>
+
+                    </zxing:ZXingScannerView>
+                    <BoxView Grid.Row="2" BackgroundColor="Blue" />
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

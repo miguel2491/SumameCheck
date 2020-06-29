@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "676667714f14f40e1b7a6b67a938fa3988b42e22"
+    "signature": "18acc779e41a025deedb2310cb53ab4195111729"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,7 +9,9 @@
     ".NETStandard,Version=v2.0/": {
       "SumaCheck/1.0.0": {
         "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10",
           "NETStandard.Library": "2.0.3",
+          "Xam.Plugin.SimpleAudioPlayer": "1.4.0",
           "Xamarin.Forms": "3.4.0.1008975",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
@@ -19,9 +21,25 @@
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.10": {},
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Xam.Plugin.SimpleAudioPlayer/1.4.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.0/Plugin.SimpleAudioPlayer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Xamarin.Forms/3.4.0.1008975": {
@@ -79,16 +97,30 @@
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "sha512-t+Yuzm93EMUJH793AJzEwj3tzZNif+4+m+piYX+PftWYOnwN5ZzGuedV4M6yR/n16rSQ5mMxaqCXke4k1sm+2A==",
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.UniversalWindowsPlatform/6.2.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ROxFw/6HrgkUQKna0NAPWfmnuHpp/5JFB+lvTG47ELXiYjYpBfEKCGXax8kh/KKzP6uLDn4M3zJUUXC6Bst1+Q==",
+      "path": "microsoft.netcore.universalwindowsplatform/6.2.10",
+      "hashPath": "microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "sha512-80Ys3+WJCxuhh5psWTaFmeuXkyctxjAoVLCagUsVA8Y+Zczx4GwOsraAQPwjTJ/XR4A44QTTIATl0EDA3EDphA==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Xam.Plugin.SimpleAudioPlayer/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QzfFZhmebaNBdQ0o2XcMLKKUsdxYpIZd50qOUuuls1zIj2ixudS3QoYOp9v27Fwa0CL1e9jEeAMgyBH7Qpimlw==",
+      "path": "xam.plugin.simpleaudioplayer/1.4.0",
+      "hashPath": "xam.plugin.simpleaudioplayer.1.4.0.nupkg.sha512"
     },
     "Xamarin.Forms/3.4.0.1008975": {
       "type": "package",

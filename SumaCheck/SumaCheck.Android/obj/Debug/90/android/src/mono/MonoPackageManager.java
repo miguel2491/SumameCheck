@@ -109,6 +109,8 @@ class MonoPackageManager_Resources {
 		"SumaCheck.Android.dll",
 		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
+		"Plugin.SimpleAudioPlayer.Abstractions.dll",
+		"Plugin.SimpleAudioPlayer.dll",
 		"SumaCheck.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

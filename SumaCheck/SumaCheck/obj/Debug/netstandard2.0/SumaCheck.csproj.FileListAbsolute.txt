@@ -10,3 +10,15 @@ C:\Users\Miguelin\source\repos\SumaCheck\SumaCheck\SumaCheck\bin\Debug\netstanda
 C:\Users\Miguelin\source\repos\SumaCheck\SumaCheck\SumaCheck\obj\Debug\netstandard2.0\SumaCheck.dll
 C:\Users\Miguelin\source\repos\SumaCheck\SumaCheck\SumaCheck\obj\Debug\netstandard2.0\SumaCheck.pdb
 C:\Users\Miguelin\source\repos\SumaCheck\SumaCheck\SumaCheck\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\EjeDesarrolloCS-165\source\repos\SumameCheck\SumaCheck\SumaCheck\bin\Debug\netstandard2.0\SumaCheck.deps.json
+C:\Users\EjeDesarrolloCS-165\source\repos\SumameCheck\SumaCheck\SumaCheck\bin\Debug\netstandard2.0\SumaCheck.dll
+C:\Users\EjeDesarrolloCS-165\source\repos\SumameCheck\SumaCheck\SumaCheck\bin\Debug\netstandard2.0\SumaCheck.pdb
+C:\Users\EjeDesarrolloCS-165\source\repos\SumameCheck\SumaCheck\SumaCheck\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\EjeDesarrolloCS-165\source\repos\SumameCheck\SumaCheck\SumaCheck\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\EjeDesarrolloCS-165\source\repos\SumameCheck\SumaCheck\SumaCheck\obj\Debug\netstandard2.0\SumaCheck.csproj.CoreCompileInputs.cache
+C:\Users\EjeDesarrolloCS-165\source\repos\SumameCheck\SumaCheck\SumaCheck\obj\Debug\netstandard2.0\SumaCheck.AssemblyInfoInputs.cache
+C:\Users\EjeDesarrolloCS-165\source\repos\SumameCheck\SumaCheck\SumaCheck\obj\Debug\netstandard2.0\SumaCheck.AssemblyInfo.cs
+C:\Users\EjeDesarrolloCS-165\source\repos\SumameCheck\SumaCheck\SumaCheck\obj\Debug\netstandard2.0\SumaCheck.dll
+C:\Users\EjeDesarrolloCS-165\source\repos\SumameCheck\SumaCheck\SumaCheck\obj\Debug\netstandard2.0\SumaCheck.pdb
+C:\Users\EjeDesarrolloCS-165\source\repos\SumameCheck\SumaCheck\SumaCheck\obj\Debug\netstandard2.0\SumaCheck.csprojAssemblyReference.cache
+C:\Users\EjeDesarrolloCS-165\source\repos\SumameCheck\SumaCheck\SumaCheck\obj\Debug\netstandard2.0\XamlC.stamp

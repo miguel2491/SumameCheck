@@ -232,8 +232,8 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F040027
 			public const int allowStacking = 2130968615;
 			
-			// aapt resource value: 0x7F040001
-			public const int alpha = 2130968577;
+			// aapt resource value: 0x7F040028
+			public const int alpha = 2130968616;
 			
 			// aapt resource value: 0x7F040029
 			public const int alphabeticModifiers = 2130968617;
@@ -577,38 +577,35 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F04008E
 			public const int fastScrollVerticalTrackDrawable = 2130968718;
 			
-			// aapt resource value: 0x7F040002
-			public const int font = 2130968578;
+			// aapt resource value: 0x7F040001
+			public const int font = 2130968577;
 			
 			// aapt resource value: 0x7F040090
 			public const int fontFamily = 2130968720;
 			
+			// aapt resource value: 0x7F040002
+			public const int fontProviderAuthority = 2130968578;
+			
 			// aapt resource value: 0x7F040003
-			public const int fontProviderAuthority = 2130968579;
+			public const int fontProviderCerts = 2130968579;
 			
 			// aapt resource value: 0x7F040004
-			public const int fontProviderCerts = 2130968580;
+			public const int fontProviderFetchStrategy = 2130968580;
 			
 			// aapt resource value: 0x7F040005
-			public const int fontProviderFetchStrategy = 2130968581;
+			public const int fontProviderFetchTimeout = 2130968581;
 			
 			// aapt resource value: 0x7F040006
-			public const int fontProviderFetchTimeout = 2130968582;
+			public const int fontProviderPackage = 2130968582;
 			
 			// aapt resource value: 0x7F040007
-			public const int fontProviderPackage = 2130968583;
+			public const int fontProviderQuery = 2130968583;
 			
 			// aapt resource value: 0x7F040008
-			public const int fontProviderQuery = 2130968584;
+			public const int fontStyle = 2130968584;
 			
 			// aapt resource value: 0x7F040009
-			public const int fontStyle = 2130968585;
-			
-			// aapt resource value: 0x7F04000A
-			public const int fontVariationSettings = 2130968586;
-			
-			// aapt resource value: 0x7F04000B
-			public const int fontWeight = 2130968587;
+			public const int fontWeight = 2130968585;
 			
 			// aapt resource value: 0x7F040099
 			public const int foregroundInsidePadding = 2130968729;
@@ -1195,9 +1192,6 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F04014E
 			public const int trackTintMode = 2130968910;
 			
-			// aapt resource value: 0x7F04000C
-			public const int ttcIndex = 2130968588;
-			
 			// aapt resource value: 0x7F04014F
 			public const int useCompatPadding = 2130968911;
 			
@@ -1401,14 +1395,14 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F060004
 			public const int cardview_shadow_start_color = 2131099652;
 			
-			// aapt resource value: 0x7F040005
-			public const int colorAccent = 2130968581;
+			// aapt resource value: 0x7F050005
+			public const int colorAccent = 2131034117;
 			
-			// aapt resource value: 0x7F040003
-			public const int colorPrimary = 2130968579;
+			// aapt resource value: 0x7F050003
+			public const int colorPrimary = 2131034115;
 			
-			// aapt resource value: 0x7F040004
-			public const int colorPrimaryDark = 2130968580;
+			// aapt resource value: 0x7F050004
+			public const int colorPrimaryDark = 2131034116;
 			
 			// aapt resource value: 0x7F060027
 			public const int design_bottom_navigation_shadow_color = 2131099687;
@@ -1470,8 +1464,8 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F06003A
 			public const int highlighted_text_material_light = 2131099706;
 			
-			// aapt resource value: 0x7F040002
-			public const int launcher_background = 2130968578;
+			// aapt resource value: 0x7F050002
+			public const int launcher_background = 2131034114;
 			
 			// aapt resource value: 0x7F06003B
 			public const int material_blue_grey_800 = 2131099707;
@@ -1843,12 +1837,6 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F080005
 			public const int compat_control_corner_material = 2131230725;
 			
-			// aapt resource value: 0x7F080006
-			public const int compat_notification_large_icon_max_height = 2131230726;
-			
-			// aapt resource value: 0x7F080007
-			public const int compat_notification_large_icon_max_width = 2131230727;
-			
 			// aapt resource value: 0x7F080050
 			public const int design_appbar_elevation = 2131230800;
 			
@@ -2026,50 +2014,50 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F08005E
 			public const int mr_dialog_fixed_width_minor = 2131230814;
 			
+			// aapt resource value: 0x7F080006
+			public const int notification_action_icon_size = 2131230726;
+			
+			// aapt resource value: 0x7F080007
+			public const int notification_action_text_size = 2131230727;
+			
 			// aapt resource value: 0x7F080008
-			public const int notification_action_icon_size = 2131230728;
+			public const int notification_big_circle_margin = 2131230728;
 			
 			// aapt resource value: 0x7F080009
-			public const int notification_action_text_size = 2131230729;
+			public const int notification_content_margin_start = 2131230729;
 			
 			// aapt resource value: 0x7F08000A
-			public const int notification_big_circle_margin = 2131230730;
+			public const int notification_large_icon_height = 2131230730;
 			
 			// aapt resource value: 0x7F08000B
-			public const int notification_content_margin_start = 2131230731;
+			public const int notification_large_icon_width = 2131230731;
 			
 			// aapt resource value: 0x7F08000C
-			public const int notification_large_icon_height = 2131230732;
+			public const int notification_main_column_padding_top = 2131230732;
 			
 			// aapt resource value: 0x7F08000D
-			public const int notification_large_icon_width = 2131230733;
+			public const int notification_media_narrow_margin = 2131230733;
 			
 			// aapt resource value: 0x7F08000E
-			public const int notification_main_column_padding_top = 2131230734;
+			public const int notification_right_icon_size = 2131230734;
 			
 			// aapt resource value: 0x7F08000F
-			public const int notification_media_narrow_margin = 2131230735;
+			public const int notification_right_side_padding_top = 2131230735;
 			
 			// aapt resource value: 0x7F080010
-			public const int notification_right_icon_size = 2131230736;
+			public const int notification_small_icon_background_padding = 2131230736;
 			
 			// aapt resource value: 0x7F080011
-			public const int notification_right_side_padding_top = 2131230737;
+			public const int notification_small_icon_size_as_large = 2131230737;
 			
 			// aapt resource value: 0x7F080012
-			public const int notification_small_icon_background_padding = 2131230738;
+			public const int notification_subtext_size = 2131230738;
 			
 			// aapt resource value: 0x7F080013
-			public const int notification_small_icon_size_as_large = 2131230739;
+			public const int notification_top_pad = 2131230739;
 			
 			// aapt resource value: 0x7F080014
-			public const int notification_subtext_size = 2131230740;
-			
-			// aapt resource value: 0x7F080015
-			public const int notification_top_pad = 2131230741;
-			
-			// aapt resource value: 0x7F080016
-			public const int notification_top_pad_large_text = 2131230742;
+			public const int notification_top_pad_large_text = 2131230740;
 			
 			// aapt resource value: 0x7F080094
 			public const int tooltip_corner_radius = 2131230868;
@@ -2363,6 +2351,9 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F090055
 			public const int avd_show_password = 2131296341;
 			
+			// aapt resource value: 0x7F010002
+			public const int beep = 2130771970;
+			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
 			
@@ -2380,6 +2371,9 @@ namespace SumaCheck.Droid
 			
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
+			
+			// aapt resource value: 0x7F010003
+			public const int icon_sumaCheck = 2130771971;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -3011,6 +3005,9 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
+			// aapt resource value: 0x7F010004
+			public const int SumaCheck_ = 2130771972;
+			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
 			
@@ -3126,8 +3123,8 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F0C0020
 			public const int container = 2131492896;
 			
-			// aapt resource value: 0x7F010176
-			public const int contentFrame = 2130772342;
+			// aapt resource value: 0x7F020174
+			public const int contentFrame = 2130837876;
 			
 			// aapt resource value: 0x7F0C0021
 			public const int contentPanel = 2131492897;
@@ -3426,8 +3423,8 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
 			
-			// aapt resource value: 0x7F010002
-			public const int sliding_tabs = 2130771970;
+			// aapt resource value: 0x7F020002
+			public const int sliding_tabs = 2130837506;
 			
 			// aapt resource value: 0x7F0C006B
 			public const int smallLabel = 2131492971;
@@ -3472,16 +3469,10 @@ namespace SumaCheck.Droid
 			public const int tag_transition_group = 2131492886;
 			
 			// aapt resource value: 0x7F0C0017
-			public const int tag_unhandled_key_event_manager = 2131492887;
+			public const int text = 2131492887;
 			
 			// aapt resource value: 0x7F0C0018
-			public const int tag_unhandled_key_listeners = 2131492888;
-			
-			// aapt resource value: 0x7F0C0019
-			public const int text = 2131492889;
-			
-			// aapt resource value: 0x7F0C001A
-			public const int text2 = 2131492890;
+			public const int text2 = 2131492888;
 			
 			// aapt resource value: 0x7F0C007E
 			public const int textinput_counter = 2131492990;
@@ -3498,11 +3489,11 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
 			
-			// aapt resource value: 0x7F0C001B
-			public const int time = 2131492891;
+			// aapt resource value: 0x7F0C0019
+			public const int time = 2131492889;
 			
-			// aapt resource value: 0x7F0C001C
-			public const int title = 2131492892;
+			// aapt resource value: 0x7F0C001A
+			public const int title = 2131492890;
 			
 			// aapt resource value: 0x7F0C0082
 			public const int titleDividerNoCustom = 2131492994;
@@ -3510,8 +3501,8 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F0C0083
 			public const int title_template = 2131492995;
 			
-			// aapt resource value: 0x7F010003
-			public const int toolbar = 2130771971;
+			// aapt resource value: 0x7F020003
+			public const int toolbar = 2130837507;
 			
 			// aapt resource value: 0x7F0C0084
 			public const int top = 2131492996;
@@ -3834,20 +3825,20 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
 			
-			// aapt resource value: 0x7F020002
-			public const int Tabbar = 2130837506;
+			// aapt resource value: 0x7F030002
+			public const int Tabbar = 2130903042;
 			
-			// aapt resource value: 0x7F020003
-			public const int Toolbar = 2130837507;
+			// aapt resource value: 0x7F030003
+			public const int Toolbar = 2130903043;
 			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
 			
-			// aapt resource value: 0x7F020070
-			public const int zxingscanneractivitylayout = 2130837616;
+			// aapt resource value: 0x7F030070
+			public const int zxingscanneractivitylayout = 2130903152;
 			
-			// aapt resource value: 0x7F020071
-			public const int zxingscannerfragmentlayout = 2130837617;
+			// aapt resource value: 0x7F030071
+			public const int zxingscannerfragmentlayout = 2130903153;
 			
 			static Layout()
 			{
@@ -3862,14 +3853,14 @@ namespace SumaCheck.Droid
 		public partial class Mipmap
 		{
 			
-			// aapt resource value: 0x7F030002
-			public const int icon = 2130903042;
+			// aapt resource value: 0x7F040002
+			public const int icon = 2130968578;
 			
-			// aapt resource value: 0x7F030003
-			public const int icon_round = 2130903043;
+			// aapt resource value: 0x7F040003
+			public const int icon_round = 2130968579;
 			
-			// aapt resource value: 0x7F030004
-			public const int launcher_foreground = 2130903044;
+			// aapt resource value: 0x7F040004
+			public const int launcher_foreground = 2130968580;
 			
 			static Mipmap()
 			{
@@ -3980,8 +3971,8 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
-			// aapt resource value: 0x7F070062
-			public const int library_name = 2131165282;
+			// aapt resource value: 0x7F080062
+			public const int library_name = 2131230818;
 			
 			// aapt resource value: 0x7F15001E
 			public const int mr_button_content_description = 2132082718;
@@ -4098,8 +4089,8 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F160006
 			public const int Animation_Design_BottomSheetDialog = 2132148230;
 			
-			// aapt resource value: 0x7F050004
-			public const int AppCompatDialogStyle = 2131034116;
+			// aapt resource value: 0x7F060004
+			public const int AppCompatDialogStyle = 2131099652;
 			
 			// aapt resource value: 0x7F160007
 			public const int Base_AlertDialog_AppCompat = 2132148231;
@@ -4602,11 +4593,11 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F160004
 			public const int CardView_Light = 2132148228;
 			
-			// aapt resource value: 0x7F050002
-			public const int MainTheme = 2131034114;
+			// aapt resource value: 0x7F060002
+			public const int MainTheme = 2131099650;
 			
-			// aapt resource value: 0x7F050003
-			public const int MainTheme_Base = 2131034115;
+			// aapt resource value: 0x7F060003
+			public const int MainTheme_Base = 2131099651;
 			
 			// aapt resource value: 0x7F1600AA
 			public const int Platform_AppCompat = 2132148394;
@@ -5333,11 +5324,11 @@ namespace SumaCheck.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F060071
-			public const int ActionBarLayout_android_layout_gravity = 2131099761;
+			// aapt resource value: 0x7F070047
+			public const int ActionBarLayout_android_layout_gravity = 2131165255;
 			
-			// aapt resource value: 0x7F060041
-			public const int ActionBar_background = 2131099713;
+			// aapt resource value: 0x7F070017
+			public const int ActionBar_background = 2131165207;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -5426,8 +5417,8 @@ namespace SumaCheck.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F060073
-			public const int ActionMenuItemView_android_minWidth = 2131099763;
+			// aapt resource value: 0x7F070049
+			public const int ActionMenuItemView_android_minWidth = 2131165257;
 			
 			public static int[] ActionMode = new int[] {
 					2130968626,
@@ -5437,8 +5428,8 @@ namespace SumaCheck.Droid
 					2130968847,
 					2130968901};
 			
-			// aapt resource value: 0x7F060075
-			public const int ActionMode_background = 2131099765;
+			// aapt resource value: 0x7F070051
+			public const int ActionMode_background = 2131165265;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -5459,8 +5450,8 @@ namespace SumaCheck.Droid
 					2130968704,
 					2130968746};
 			
-			// aapt resource value: 0x7F060082
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131099778;
+			// aapt resource value: 0x7F070058
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131165272;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -5474,8 +5465,8 @@ namespace SumaCheck.Droid
 					2130968828,
 					2130968829};
 			
-			// aapt resource value: 0x7F060085
-			public const int AlertDialog_android_layout = 2131099781;
+			// aapt resource value: 0x7F070061
+			public const int AlertDialog_android_layout = 2131165281;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -5506,14 +5497,14 @@ namespace SumaCheck.Droid
 					2130968838,
 					2130968839};
 			
-			// aapt resource value: 0x7F060099
-			public const int AppBarLayoutStates_state_collapsed = 2131099801;
+			// aapt resource value: 0x7F070075
+			public const int AppBarLayoutStates_state_collapsed = 2131165301;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F060093
-			public const int AppBarLayout_android_background = 2131099795;
+			// aapt resource value: 0x7F070069
+			public const int AppBarLayout_android_background = 2131165289;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -5531,8 +5522,8 @@ namespace SumaCheck.Droid
 					2130968765,
 					2130968766};
 			
-			// aapt resource value: 0x7F060102
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131099906;
+			// aapt resource value: 0x7F070078
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131165304;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -5543,8 +5534,8 @@ namespace SumaCheck.Droid
 					2130968889,
 					2130968890};
 			
-			// aapt resource value: 0x7F060105
-			public const int AppCompatImageView_android_src = 2131099909;
+			// aapt resource value: 0x7F070081
+			public const int AppCompatImageView_android_src = 2131165313;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -5561,8 +5552,8 @@ namespace SumaCheck.Droid
 					2130968887,
 					2130968888};
 			
-			// aapt resource value: 0x7F060110
-			public const int AppCompatSeekBar_android_thumb = 2131099920;
+			// aapt resource value: 0x7F070086
+			public const int AppCompatSeekBar_android_thumb = 2131165318;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -5582,8 +5573,8 @@ namespace SumaCheck.Droid
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F060115
-			public const int AppCompatTextHelper_android_drawableBottom = 2131099925;
+			// aapt resource value: 0x7F070091
+			public const int AppCompatTextHelper_android_drawableBottom = 2131165329;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -5613,8 +5604,8 @@ namespace SumaCheck.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F060123
-			public const int AppCompatTextView_android_textAppearance = 2131099939;
+			// aapt resource value: 0x7F070099
+			public const int AppCompatTextView_android_textAppearance = 2131165337;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -5758,8 +5749,8 @@ namespace SumaCheck.Droid
 					2130968921,
 					2130968922};
 			
-			// aapt resource value: 0x7F060132
-			public const int AppCompatTheme_actionBarDivider = 2131099954;
+			// aapt resource value: 0x7F070108
+			public const int AppCompatTheme_actionBarDivider = 2131165448;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -6122,8 +6113,8 @@ namespace SumaCheck.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F060252
-			public const int BottomNavigationView_elevation = 2131100242;
+			// aapt resource value: 0x7F070228
+			public const int BottomNavigationView_elevation = 2131165736;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -6142,8 +6133,8 @@ namespace SumaCheck.Droid
 					2130968635,
 					2130968636};
 			
-			// aapt resource value: 0x7F060258
-			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131100248;
+			// aapt resource value: 0x7F070234
+			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131165748;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 1;
@@ -6154,8 +6145,8 @@ namespace SumaCheck.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F060262
-			public const int ButtonBarLayout_allowStacking = 2131100258;
+			// aapt resource value: 0x7F070238
+			public const int ButtonBarLayout_allowStacking = 2131165752;
 			
 			public static int[] CardView = new int[] {
 					16843072,
@@ -6172,8 +6163,8 @@ namespace SumaCheck.Droid
 					2130968586,
 					2130968587};
 			
-			// aapt resource value: 0x7F060561
-			public const int CardView_android_minHeight = 2131101025;
+			// aapt resource value: 0x7F070541
+			public const int CardView_android_minHeight = 2131166529;
 			
 			// aapt resource value: 0x1
 			public const int CardView_android_minWidth = 1;
@@ -6229,8 +6220,8 @@ namespace SumaCheck.Droid
 					2130968892,
 					2130968902};
 			
-			// aapt resource value: 0x7F060264
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131100260;
+			// aapt resource value: 0x7F070240
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131165760;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -6263,8 +6254,8 @@ namespace SumaCheck.Droid
 					2130968760,
 					2130968761};
 			
-			// aapt resource value: 0x7F060281
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131100289;
+			// aapt resource value: 0x7F070257
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131165783;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -6288,12 +6279,12 @@ namespace SumaCheck.Droid
 			public const int CollapsingToolbarLayout_toolbarId = 21;
 			
 			public static int[] ColorStateListItem = new int[] {
-					2130968577,
+					2130968616,
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F060003
-			public const int ColorStateListItem_alpha = 2131099651;
+			// aapt resource value: 0x7F070260
+			public const int ColorStateListItem_alpha = 2131165792;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -6306,8 +6297,8 @@ namespace SumaCheck.Droid
 					2130968650,
 					2130968651};
 			
-			// aapt resource value: 0x7F060284
-			public const int CompoundButton_android_button = 2131100292;
+			// aapt resource value: 0x7F070264
+			public const int CompoundButton_android_button = 2131165796;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -6319,8 +6310,8 @@ namespace SumaCheck.Droid
 					2130968754,
 					2130968840};
 			
-			// aapt resource value: 0x7F060288
-			public const int CoordinatorLayout_keylines = 2131100296;
+			// aapt resource value: 0x7F070268
+			public const int CoordinatorLayout_keylines = 2131165800;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -6331,8 +6322,8 @@ namespace SumaCheck.Droid
 					2130968763,
 					2130968764};
 			
-			// aapt resource value: 0x7F060291
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131100305;
+			// aapt resource value: 0x7F070271
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131165809;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -6360,8 +6351,8 @@ namespace SumaCheck.Droid
 					2130968640,
 					2130968879};
 			
-			// aapt resource value: 0x7F060299
-			public const int DesignTheme_bottomSheetDialogTheme = 2131100313;
+			// aapt resource value: 0x7F070279
+			public const int DesignTheme_bottomSheetDialogTheme = 2131165817;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -6379,8 +6370,8 @@ namespace SumaCheck.Droid
 					2130968831,
 					2130968882};
 			
-			// aapt resource value: 0x7F060303
-			public const int DrawerArrowToggle_arrowHeadLength = 2131100419;
+			// aapt resource value: 0x7F070283
+			public const int DrawerArrowToggle_arrowHeadLength = 2131165827;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -6413,8 +6404,8 @@ namespace SumaCheck.Droid
 					2130968816,
 					2130968911};
 			
-			// aapt resource value: 0x7F060312
-			public const int FloatingActionButton_backgroundTint = 2131100434;
+			// aapt resource value: 0x7F070292
+			public const int FloatingActionButton_backgroundTint = 2131165842;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -6422,8 +6413,8 @@ namespace SumaCheck.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F060321
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131100449;
+			// aapt resource value: 0x7F070301
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131165953;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -6444,57 +6435,41 @@ namespace SumaCheck.Droid
 			public const int FloatingActionButton_useCompatPadding = 7;
 			
 			public static int[] FontFamily = new int[] {
+					2130968578,
 					2130968579,
 					2130968580,
 					2130968581,
 					2130968582,
-					2130968583,
-					2130968584};
+					2130968583};
 			
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844095,
-					16844144,
 					16844083,
-					16844143,
-					2130968578,
-					2130968585,
-					2130968586,
-					2130968587,
-					2130968588};
+					2130968577,
+					2130968584,
+					2130968585};
 			
-			// aapt resource value: 0x7F060014
-			public const int FontFamilyFont_android_font = 2131099668;
+			// aapt resource value: 0x7F070010
+			public const int FontFamilyFont_android_font = 2131165200;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
 			
 			// aapt resource value: 0x2
-			public const int FontFamilyFont_android_fontVariationSettings = 2;
+			public const int FontFamilyFont_android_fontWeight = 2;
 			
 			// aapt resource value: 0x3
-			public const int FontFamilyFont_android_fontWeight = 3;
+			public const int FontFamilyFont_font = 3;
 			
 			// aapt resource value: 0x4
-			public const int FontFamilyFont_android_ttcIndex = 4;
+			public const int FontFamilyFont_fontStyle = 4;
 			
 			// aapt resource value: 0x5
-			public const int FontFamilyFont_font = 5;
+			public const int FontFamilyFont_fontWeight = 5;
 			
-			// aapt resource value: 0x6
-			public const int FontFamilyFont_fontStyle = 6;
-			
-			// aapt resource value: 0x7
-			public const int FontFamilyFont_fontVariationSettings = 7;
-			
-			// aapt resource value: 0x8
-			public const int FontFamilyFont_fontWeight = 8;
-			
-			// aapt resource value: 0x9
-			public const int FontFamilyFont_ttcIndex = 9;
-			
-			// aapt resource value: 0x7F060007
-			public const int FontFamily_fontProviderAuthority = 2131099655;
+			// aapt resource value: 0x7F070003
+			public const int FontFamily_fontProviderAuthority = 2131165187;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -6516,74 +6491,14 @@ namespace SumaCheck.Droid
 					16843264,
 					2130968729};
 			
-			// aapt resource value: 0x7F060323
-			public const int ForegroundLinearLayout_android_foreground = 2131100451;
+			// aapt resource value: 0x7F070303
+			public const int ForegroundLinearLayout_android_foreground = 2131165955;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
 			
 			// aapt resource value: 0x2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
-			
-			public static int[] GradientColor = new int[] {
-					16843275,
-					16843170,
-					16843171,
-					16843166,
-					16844050,
-					16844051,
-					16843172,
-					16843165,
-					16844048,
-					16844049,
-					16843265,
-					16843169};
-			
-			public static int[] GradientColorItem = new int[] {
-					16843173,
-					16844052};
-			
-			// aapt resource value: 0x7F060038
-			public const int GradientColorItem_android_color = 2131099704;
-			
-			// aapt resource value: 0x1
-			public const int GradientColorItem_android_offset = 1;
-			
-			// aapt resource value: 0x7F060025
-			public const int GradientColor_android_centerColor = 2131099685;
-			
-			// aapt resource value: 0x1
-			public const int GradientColor_android_centerX = 1;
-			
-			// aapt resource value: 0x2
-			public const int GradientColor_android_centerY = 2;
-			
-			// aapt resource value: 0x3
-			public const int GradientColor_android_endColor = 3;
-			
-			// aapt resource value: 0x4
-			public const int GradientColor_android_endX = 4;
-			
-			// aapt resource value: 0x5
-			public const int GradientColor_android_endY = 5;
-			
-			// aapt resource value: 0x6
-			public const int GradientColor_android_gradientRadius = 6;
-			
-			// aapt resource value: 0x7
-			public const int GradientColor_android_startColor = 7;
-			
-			// aapt resource value: 0x8
-			public const int GradientColor_android_startX = 8;
-			
-			// aapt resource value: 0x9
-			public const int GradientColor_android_startY = 9;
-			
-			// aapt resource value: 0x10
-			public const int GradientColor_android_tileMode = 16;
-			
-			// aapt resource value: 0x11
-			public const int GradientColor_android_type = 17;
 			
 			public static int[] LinearLayoutCompat = new int[] {
 					16843046,
@@ -6596,8 +6511,8 @@ namespace SumaCheck.Droid
 					2130968782,
 					2130968826};
 			
-			// aapt resource value: 0x7F060327
-			public const int LinearLayoutCompat_android_baselineAligned = 2131100455;
+			// aapt resource value: 0x7F070307
+			public const int LinearLayoutCompat_android_baselineAligned = 2131165959;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -6623,8 +6538,8 @@ namespace SumaCheck.Droid
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F060337
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131100471;
+			// aapt resource value: 0x7F070317
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131165975;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -6645,8 +6560,8 @@ namespace SumaCheck.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F060342
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131100482;
+			// aapt resource value: 0x7F070322
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131165986;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -6657,8 +6572,8 @@ namespace SumaCheck.Droid
 					2130968688,
 					2130968732};
 			
-			// aapt resource value: 0x7F060575
-			public const int MediaRouteButton_android_minHeight = 2131101045;
+			// aapt resource value: 0x7F070555
+			public const int MediaRouteButton_android_minHeight = 2131166549;
 			
 			// aapt resource value: 0x1
 			public const int MediaRouteButton_android_minWidth = 1;
@@ -6677,8 +6592,8 @@ namespace SumaCheck.Droid
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F060345
-			public const int MenuGroup_android_checkableBehavior = 2131100485;
+			// aapt resource value: 0x7F070325
+			public const int MenuGroup_android_checkableBehavior = 2131165989;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -6720,8 +6635,8 @@ namespace SumaCheck.Droid
 					2130968825,
 					2130968907};
 			
-			// aapt resource value: 0x7F060352
-			public const int MenuItem_actionLayout = 2131100498;
+			// aapt resource value: 0x7F070332
+			public const int MenuItem_actionLayout = 2131166002;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -6800,8 +6715,8 @@ namespace SumaCheck.Droid
 					2130968805,
 					2130968842};
 			
-			// aapt resource value: 0x7F060376
-			public const int MenuView_android_headerBackground = 2131100534;
+			// aapt resource value: 0x7F070356
+			public const int MenuView_android_headerBackground = 2131166038;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -6839,8 +6754,8 @@ namespace SumaCheck.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F060386
-			public const int NavigationView_android_background = 2131100550;
+			// aapt resource value: 0x7F070366
+			public const int NavigationView_android_background = 2131166054;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -6877,11 +6792,11 @@ namespace SumaCheck.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968837};
 			
-			// aapt resource value: 0x7F060401
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131100673;
+			// aapt resource value: 0x7F070381
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131166081;
 			
-			// aapt resource value: 0x7F060397
-			public const int PopupWindow_android_popupAnimationStyle = 2131100567;
+			// aapt resource value: 0x7F070377
+			public const int PopupWindow_android_popupAnimationStyle = 2131166071;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -6893,8 +6808,8 @@ namespace SumaCheck.Droid
 					2130968790,
 					2130968793};
 			
-			// aapt resource value: 0x7F060403
-			public const int RecycleListView_paddingBottomNoButtons = 2131100675;
+			// aapt resource value: 0x7F070383
+			public const int RecycleListView_paddingBottomNoButtons = 2131166083;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -6912,8 +6827,8 @@ namespace SumaCheck.Droid
 					2130968830,
 					2130968836};
 			
-			// aapt resource value: 0x7F060406
-			public const int RecyclerView_android_descendantFocusability = 2131100678;
+			// aapt resource value: 0x7F070386
+			public const int RecyclerView_android_descendantFocusability = 2131166086;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -6948,14 +6863,14 @@ namespace SumaCheck.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968747};
 			
-			// aapt resource value: 0x7F060418
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131100696;
+			// aapt resource value: 0x7F070398
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131166104;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968634};
 			
-			// aapt resource value: 0x7F060420
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131100704;
+			// aapt resource value: 0x7F070400
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131166208;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -6976,8 +6891,8 @@ namespace SumaCheck.Droid
 					2130968848,
 					2130968912};
 			
-			// aapt resource value: 0x7F060422
-			public const int SearchView_android_focusable = 2131100706;
+			// aapt resource value: 0x7F070402
+			public const int SearchView_android_focusable = 2131166210;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -7032,8 +6947,8 @@ namespace SumaCheck.Droid
 					2130968701,
 					2130968780};
 			
-			// aapt resource value: 0x7F060440
-			public const int SnackbarLayout_android_maxWidth = 2131100736;
+			// aapt resource value: 0x7F070420
+			public const int SnackbarLayout_android_maxWidth = 2131166240;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -7048,8 +6963,8 @@ namespace SumaCheck.Droid
 					16843131,
 					2130968803};
 			
-			// aapt resource value: 0x7F060444
-			public const int Spinner_android_dropDownWidth = 2131100740;
+			// aapt resource value: 0x7F070424
+			public const int Spinner_android_dropDownWidth = 2131166244;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -7079,8 +6994,8 @@ namespace SumaCheck.Droid
 					2130968909,
 					2130968910};
 			
-			// aapt resource value: 0x7F060450
-			public const int SwitchCompat_android_textOff = 2131100752;
+			// aapt resource value: 0x7F070430
+			public const int SwitchCompat_android_textOff = 2131166256;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -7126,8 +7041,8 @@ namespace SumaCheck.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F060465
-			public const int TabItem_android_icon = 2131100773;
+			// aapt resource value: 0x7F070445
+			public const int TabItem_android_icon = 2131166277;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -7153,8 +7068,8 @@ namespace SumaCheck.Droid
 					2130968867,
 					2130968868};
 			
-			// aapt resource value: 0x7F060469
-			public const int TabLayout_tabBackground = 2131100777;
+			// aapt resource value: 0x7F070449
+			public const int TabLayout_tabBackground = 2131166281;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -7216,8 +7131,8 @@ namespace SumaCheck.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F060486
-			public const int TextAppearance_android_fontFamily = 2131100806;
+			// aapt resource value: 0x7F070466
+			public const int TextAppearance_android_fontFamily = 2131166310;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -7273,8 +7188,8 @@ namespace SumaCheck.Droid
 					2130968800,
 					2130968801};
 			
-			// aapt resource value: 0x7F060500
-			public const int TextInputLayout_android_hint = 2131100928;
+			// aapt resource value: 0x7F070480
+			public const int TextInputLayout_android_hint = 2131166336;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -7352,8 +7267,8 @@ namespace SumaCheck.Droid
 					2130968899,
 					2130968900};
 			
-			// aapt resource value: 0x7F060517
-			public const int Toolbar_android_gravity = 2131100951;
+			// aapt resource value: 0x7F070497
+			public const int Toolbar_android_gravity = 2131166359;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -7451,8 +7366,8 @@ namespace SumaCheck.Droid
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F060553
-			public const int ViewBackgroundHelper_android_background = 2131101011;
+			// aapt resource value: 0x7F070533
+			public const int ViewBackgroundHelper_android_background = 2131166515;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -7465,8 +7380,8 @@ namespace SumaCheck.Droid
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F060557
-			public const int ViewStubCompat_android_id = 2131101015;
+			// aapt resource value: 0x7F070537
+			public const int ViewStubCompat_android_id = 2131166519;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -7474,8 +7389,8 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F060547
-			public const int View_android_focusable = 2131100999;
+			// aapt resource value: 0x7F070527
+			public const int View_android_focusable = 2131166503;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;
