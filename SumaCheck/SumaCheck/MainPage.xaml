@@ -31,7 +31,7 @@
                     </Grid.RowDefinitions>
 
                     <BoxView Grid.Row="0" BackgroundColor="Chocolate"/>
-                    <zxing:ZXingScannerView Grid.Row="1" x:Name="_scanView" OnScanResult="Handle_OnScanResult" IsScanning="False" WidthRequest="200" HeightRequest="500">
+                    <zxing:ZXingScannerView Grid.Row="1" x:Name="_scanView" OnScanResult="Handle_OnScanResult" IsScanning="False" WidthRequest="80"  HeightRequest="250">
 
                         <zxing:ZXingScannerView.Options>
 
@@ -42,6 +42,16 @@
                     </zxing:ZXingScannerView>
                     <BoxView Grid.Row="2" BackgroundColor="Blue" />
                 </Grid>
+            </StackLayout>
+            <StackLayout Margin="20,20,20,20">
+                <Label x:Name="txt_retardo" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                <Image
+                    x:Name="img_retardo"
+                    IsVisible="False"
+                    Aspect="AspectFill"
+                    HeightRequest="80"
+                    WidthRequest="80"
+                    HorizontalOptions="Center" />
             </StackLayout>
         </StackLayout>
     </ScrollView>

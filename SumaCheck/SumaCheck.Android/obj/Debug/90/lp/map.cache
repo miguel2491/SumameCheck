@@ -33,3 +33,5 @@ ZXing.Net.Mobile.Forms
 zxing.portable
 ZXingNetMobile
 netstandard
+System.ComponentModel
+System.Reflection.Extensions

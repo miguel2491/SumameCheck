@@ -2354,6 +2354,9 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F010002
 			public const int beep = 2130771970;
 			
+			// aapt resource value: 0x7F010003
+			public const int check = 2130771971;
+			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
 			
@@ -2372,8 +2375,8 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010003
-			public const int icon_sumaCheck = 2130771971;
+			// aapt resource value: 0x7F010004
+			public const int icon_sumaCheck = 2130771972;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -3005,14 +3008,17 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010004
-			public const int SumaCheck_ = 2130771972;
+			// aapt resource value: 0x7F010005
+			public const int SumaCheck_ = 2130771973;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
 			
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
+			
+			// aapt resource value: 0x7F010006
+			public const int uncheck = 2130771974;
 			
 			static Drawable()
 			{

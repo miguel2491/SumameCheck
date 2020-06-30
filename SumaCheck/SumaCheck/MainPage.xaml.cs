@@ -5,6 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using SumaCheck.Views;
 using Xamarin.Forms;
 using ZXing;
 using ZXing.Mobile;
@@ -53,8 +54,55 @@ namespace SumaCheck
         {
             Device.BeginInvokeOnMainThread(async () =>
             {
-                await DisplayAlert("Scanned result", result.Text, "OK");
+                //await DisplayAlert("Scanned result", result.Text, "OK");
+                var hra_llegada = lblTime.Text;
+                
+                string[] hora_g = hra_llegada.Split(':');
+                var h_ = 0;
+                var m_ = 0; 
+                foreach (var hr in hora_g)
+                {
+                    var index = Array.IndexOf(hora_g, hr);
+                    if (index == 0)
+                    {
+                        h_ = Convert.ToInt32(hr);
+                    }
+                    else if (index == 1)
+                    {
+                        m_ = Convert.ToInt16(hr);
+                    }
+                }
+                var retardo = "";
+                var imgRetardo = "";
+                var color = "";
+                if (h_ < 9)
+                {
+                    if (m_ < 36)
+                    {
+                        retardo = "PUNTUAL";
+                        imgRetardo = "check.png";
+                        color = "#4D7356";
+                        txt_retardo.TextColor = Color.Black;
+                    }
+                    else {
+                        retardo = "RETARDO";
+                        imgRetardo = "uncheck.png";
+                        color = "#BF2604";
+                        txt_retardo.TextColor = Color.Red;
+                    }
+                }
+                else {
+                    retardo = "RETARDO";
+                    imgRetardo = "uncheck.png";
+                    color = "#BF2604";
+                    txt_retardo.TextColor = Color.Red;
+                }
+                img_retardo.IsVisible = true;
+                img_retardo.Source = imgRetardo;
                 txt_noticia.Text = "Bienvenido " + result.Text;
+                //txt_retardo.TextColor = color;
+                txt_retardo.Text = retardo;
+                ActivarCam();
             });
         }
         public async void Scanner()
@@ -100,8 +148,11 @@ namespace SumaCheck
             await Navigation.PushAsync(ScannerPage);
         }
 
-        public  void ActivarCam()
+        public async void ActivarCam()
         {
+            NavigationPage page = App.Current.MainPage as NavigationPage;
+            await Navigation.PushAsync(new Reconocimiento());
+            //await ((MainPage)App.Current.MainPage).Detail.Navigation.PushAsync(new SolicitaSolicitud());
             /*await CrossMedia.Current.Initialize();
             if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
             {

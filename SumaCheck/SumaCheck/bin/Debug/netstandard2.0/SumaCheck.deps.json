@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "18acc779e41a025deedb2310cb53ab4195111729"
+    "signature": "7e91afd3b9468706f60c9cbc7022b0e2d7060189"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,20 +11,38 @@
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10",
           "NETStandard.Library": "2.0.3",
+          "System.ComponentModel": "4.3.0",
           "Xam.Plugin.SimpleAudioPlayer": "1.4.0",
-          "Xamarin.Forms": "3.4.0.1008975",
-          "ZXing.Net.Mobile": "2.4.1",
-          "ZXing.Net.Mobile.Forms": "2.4.1"
+          "Xamarin.Forms": "2.5.0.122203",
+          "ZXing.Net.Mobile.Forms": "2.3.2"
         },
         "runtime": {
           "SumaCheck.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
       "Microsoft.NETCore.UniversalWindowsPlatform/6.2.10": {},
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "System.ComponentModel/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.ComponentModel.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
       "Xam.Plugin.SimpleAudioPlayer/1.4.0": {
@@ -42,47 +60,47 @@
           }
         }
       },
-      "Xamarin.Forms/3.4.0.1008975": {
+      "Xamarin.Forms/2.5.0.122203": {
         "runtime": {
-          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+          "lib/netstandard1.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
           },
-          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+          "lib/netstandard1.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           },
-          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+          "lib/netstandard1.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
           }
         }
       },
-      "ZXing.Net.Mobile/2.4.1": {
+      "ZXing.Net.Mobile/2.3.2": {
         "runtime": {
-          "lib/netstandard1.0/ZXing.Net.Mobile.Core.dll": {
-            "assemblyVersion": "2.4.1.0",
-            "fileVersion": "2.4.1.0"
+          "lib/portable-net45+netcore45+wpa81+wp8/ZXing.Net.Mobile.Core.dll": {
+            "assemblyVersion": "2.3.2.0",
+            "fileVersion": "2.3.2.0"
           },
-          "lib/netstandard1.0/ZXingNetMobile.dll": {
-            "assemblyVersion": "2.4.1.0",
-            "fileVersion": "2.4.1.0"
+          "lib/portable-net45+netcore45+wpa81+wp8/ZXingNetMobile.dll": {
+            "assemblyVersion": "2.3.2.0",
+            "fileVersion": "2.3.2.0"
           },
-          "lib/netstandard1.0/zxing.portable.dll": {
-            "assemblyVersion": "0.16.2.0",
-            "fileVersion": "0.16.2.0"
+          "lib/portable-net45+netcore45+wpa81+wp8/zxing.portable.dll": {
+            "assemblyVersion": "2.3.2.0",
+            "fileVersion": "2.3.2.0"
           }
         }
       },
-      "ZXing.Net.Mobile.Forms/2.4.1": {
+      "ZXing.Net.Mobile.Forms/2.3.2": {
         "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975",
-          "ZXing.Net.Mobile": "2.4.1"
+          "Xamarin.Forms": "2.5.0.122203",
+          "ZXing.Net.Mobile": "2.3.2"
         },
         "runtime": {
-          "lib/netstandard1.0/ZXing.Net.Mobile.Forms.dll": {
-            "assemblyVersion": "2.4.1.0",
-            "fileVersion": "2.4.1.0"
+          "lib/portable-net45+netcore45+wpa81+wp8/ZXing.Net.Mobile.Forms.dll": {
+            "assemblyVersion": "2.3.2.0",
+            "fileVersion": "2.3.2.0"
           }
         }
       }
@@ -101,6 +119,13 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i1YmkvXzR1i2ySmBX6/jZCYjvFHIrJ/hjR+5mTuAA7Fi3mxF7EdkZmEq2/YMiWCw9y1e5BtCDccHJ+bKTNp5tg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
     "Microsoft.NETCore.UniversalWindowsPlatform/6.2.10": {
       "type": "package",
       "serviceable": true,
@@ -115,6 +140,20 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
+    "System.ComponentModel/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EmLkUePeJPJa5i75/zsYo8+V8BoFMh5U/klGdvtDVbdIx5tZ+GoZQzYe6zH7U4bAJ4sMihY/p3VNxh0OGM9rBg==",
+      "path": "system.componentmodel/4.3.0",
+      "hashPath": "system.componentmodel.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IS6EyAxPlTA9icZsDtONTUI2MspGAaolBfA7S1ElKc5qacILWjDGxO4oknlftNb3kdhlpLOoxcGA24ldL7R4pw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
     "Xam.Plugin.SimpleAudioPlayer/1.4.0": {
       "type": "package",
       "serviceable": true,
@@ -122,26 +161,26 @@
       "path": "xam.plugin.simpleaudioplayer/1.4.0",
       "hashPath": "xam.plugin.simpleaudioplayer.1.4.0.nupkg.sha512"
     },
-    "Xamarin.Forms/3.4.0.1008975": {
+    "Xamarin.Forms/2.5.0.122203": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tM9syeev45u92OFENGjq+Zw8WiEwLJFiXe317XpL9SY2RRk9sm2fc1lDVjzwz0da+5ZP5fi24NAPsPQdxBdMwQ==",
-      "path": "xamarin.forms/3.4.0.1008975",
-      "hashPath": "xamarin.forms.3.4.0.1008975.nupkg.sha512"
+      "sha512": "sha512-qg7A2IXbVV/5u9qqeiDhRMwpVEsbWKBxzeAtD0rTuntmaDB1Z7WuBg5IK2VBklJbKe2Ps8V9zBfEwgJIqPVJUw==",
+      "path": "xamarin.forms/2.5.0.122203",
+      "hashPath": "xamarin.forms.2.5.0.122203.nupkg.sha512"
     },
-    "ZXing.Net.Mobile/2.4.1": {
+    "ZXing.Net.Mobile/2.3.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iCL2WcqOyUnC1iFFdzXijk0EXfoLMDqW88MyhoTZigSyhJZM2C5hKgSZVyfx9E35tgkde/IZwHkk8cVDnbQlYg==",
-      "path": "zxing.net.mobile/2.4.1",
-      "hashPath": "zxing.net.mobile.2.4.1.nupkg.sha512"
+      "sha512": "sha512-8EQ8O2Cz+nREH5BZTSRb4eHLmQ8Y/aJvt5R2syaE3F2GTNeE1G5/HH3wjgcPimh/PTg7i1rVc1JvyV77qbWhTQ==",
+      "path": "zxing.net.mobile/2.3.2",
+      "hashPath": "zxing.net.mobile.2.3.2.nupkg.sha512"
     },
-    "ZXing.Net.Mobile.Forms/2.4.1": {
+    "ZXing.Net.Mobile.Forms/2.3.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7z+MfL8TbfE36s1GGvrnlkhLUOV5dgdn1gYhUb3GU2W6YXzpfF39k6EqkmFsyNm1O07evTaKFgh7UTOqcWub3g==",
-      "path": "zxing.net.mobile.forms/2.4.1",
-      "hashPath": "zxing.net.mobile.forms.2.4.1.nupkg.sha512"
+      "sha512": "sha512-9kW+Trsxa1sijYeRephoQYTfXKAvdposMfv9Rvg2vhnUp9Pp3M67YzhsSOAhkBPdhZXSx6CiTpnJCBavatbm1w==",
+      "path": "zxing.net.mobile.forms/2.3.2",
+      "hashPath": "zxing.net.mobile.forms.2.3.2.nupkg.sha512"
     }
   }
 }
