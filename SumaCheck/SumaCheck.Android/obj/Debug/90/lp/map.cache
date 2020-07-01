@@ -1,5 +1,10 @@
 FastAndroidCamera
 FormsViewGroup
+Plugin.CurrentActivity
+Plugin.Media.Abstractions
+Plugin.Media
+Plugin.Permissions.Abstractions
+Plugin.Permissions
 Plugin.SimpleAudioPlayer.Abstractions
 Plugin.SimpleAudioPlayer
 SumaCheck

@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using SumaCheck.Views;
+using Plugin.Media;
+using Plugin.Media.Abstractions;
 using Xamarin.Forms;
 using ZXing;
 using ZXing.Mobile;
@@ -15,7 +17,7 @@ namespace SumaCheck
 {
     public partial class MainPage : ContentPage
     {
-        //private MediaFile _image;
+        private MediaFile _image;
         public string filename;
         public string foto_;
 
@@ -23,12 +25,39 @@ namespace SumaCheck
         {
             InitializeComponent();
             //Scanner();
+            CameraButton.Clicked += CameraButton_Clicked;
             Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
                 Device.BeginInvokeOnMainThread(() =>
                 lblTime.Text = DateTime.Now.ToString("HH:mm:ss")
                 );
                 return true;
+            });
+        }
+
+        private async void CameraButton_Clicked(object sender, EventArgs e)
+        {
+            await CrossMedia.Current.Initialize();
+
+            if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
+            {
+                await DisplayAlert("No Camera", ":( No camera soportada.", "OK");
+                return;
+            }
+            _image = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
+            {
+                Directory = "Check_",
+                Name = foto_ + ".jpg",
+                PhotoSize = PhotoSize.MaxWidthHeight,
+                MaxWidthHeight = 1000,
+                DefaultCamera = CameraDevice.Front
+            });
+            if (_image == null)
+                return;
+            await DisplayAlert("File Location", _image.Path, "OK");
+            PhotoImage.Source = ImageSource.FromStream(() =>
+            {
+                return _image.GetStream();
             });
         }
 
@@ -42,7 +71,7 @@ namespace SumaCheck
 
         private void OpenScanner(object sender, EventArgs e)
         {
-            Scanner();
+            //Scanner();
             //ScannerV();
         }
 
@@ -150,10 +179,8 @@ namespace SumaCheck
 
         public async void ActivarCam()
         {
-            NavigationPage page = App.Current.MainPage as NavigationPage;
-            await Navigation.PushAsync(new Reconocimiento());
-            //await ((MainPage)App.Current.MainPage).Detail.Navigation.PushAsync(new SolicitaSolicitud());
-            /*await CrossMedia.Current.Initialize();
+            await CrossMedia.Current.Initialize();
+
             if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
             {
                 await DisplayAlert("No Camera", ":( No camera soportada.", "OK");
@@ -161,9 +188,28 @@ namespace SumaCheck
             }
             _image = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
             {
-                Directory = "Auto_",
-                Name = foto_ + ".jpg"
+                Directory = "Check_",
+                Name = foto_ + ".jpg",
+                PhotoSize = PhotoSize.MaxWidthHeight,
+                MaxWidthHeight = 1000,
+                DefaultCamera = CameraDevice.Front
             });
+            if (_image == null)
+                return;
+            
+            PhotoImage.Source = ImageSource.FromStream(() =>
+            {
+                return _image.GetStream();
+            });
+            //NavigationPage page = App.Current.MainPage as NavigationPage;
+            //await Navigation.PushAsync(new Reconocimiento());
+            /*await CrossMedia.Current.Initialize();
+            if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
+            {
+                await DisplayAlert("No Camera", ":( No camera soportada.", "OK");
+                return;
+            }
+            
             if (_image == null)
                 return;
             // await DisplayAlert("File Location Error", "Error parece que hubo un problema con la camara, confirme espacio en memoria o notifique a sistemas", "OK");
