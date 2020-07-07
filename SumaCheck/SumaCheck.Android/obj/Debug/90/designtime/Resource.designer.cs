@@ -3114,6 +3114,9 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
 			
+			// aapt resource value: 0x7F020002
+			public const int cameraTexture = 2130837506;
+			
 			// aapt resource value: 0x7F0C001C
 			public const int cancel_action = 2131492892;
 			
@@ -3129,8 +3132,8 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F0C0020
 			public const int container = 2131492896;
 			
-			// aapt resource value: 0x7F020174
-			public const int contentFrame = 2130837876;
+			// aapt resource value: 0x7F020175
+			public const int contentFrame = 2130837877;
 			
 			// aapt resource value: 0x7F0C0021
 			public const int contentPanel = 2131492897;
@@ -3429,8 +3432,8 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
 			
-			// aapt resource value: 0x7F020002
-			public const int sliding_tabs = 2130837506;
+			// aapt resource value: 0x7F020003
+			public const int sliding_tabs = 2130837507;
 			
 			// aapt resource value: 0x7F0C006B
 			public const int smallLabel = 2131492971;
@@ -3507,8 +3510,8 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F0C0083
 			public const int title_template = 2131492995;
 			
-			// aapt resource value: 0x7F020003
-			public const int toolbar = 2130837507;
+			// aapt resource value: 0x7F020004
+			public const int toolbar = 2130837508;
 			
 			// aapt resource value: 0x7F0C0084
 			public const int top = 2131492996;
@@ -3714,6 +3717,9 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
+			// aapt resource value: 0x7F030002
+			public const int CameraLayout = 2130903042;
+			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
 			
@@ -3831,20 +3837,20 @@ namespace SumaCheck.Droid
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
 			
-			// aapt resource value: 0x7F030002
-			public const int Tabbar = 2130903042;
-			
 			// aapt resource value: 0x7F030003
-			public const int Toolbar = 2130903043;
+			public const int Tabbar = 2130903043;
+			
+			// aapt resource value: 0x7F030004
+			public const int Toolbar = 2130903044;
 			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
 			
-			// aapt resource value: 0x7F030070
-			public const int zxingscanneractivitylayout = 2130903152;
-			
 			// aapt resource value: 0x7F030071
-			public const int zxingscannerfragmentlayout = 2130903153;
+			public const int zxingscanneractivitylayout = 2130903153;
+			
+			// aapt resource value: 0x7F030072
+			public const int zxingscannerfragmentlayout = 2130903154;
 			
 			static Layout()
 			{
